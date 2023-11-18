@@ -1,5 +1,5 @@
 
-# Your App Name - README
+# hypothetical-product-payment-app - README
 
 ## Introduction
 
