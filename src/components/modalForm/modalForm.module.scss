@@ -1,0 +1,101 @@
+@use '../../App.module.scss' as *;
+
+.modal {
+    // default modal styles
+    position: absolute;
+    background: $bg-color;
+    overflow: auto;
+    border-radius: 20px 2px 20px 2px;
+    outline: none;
+    padding: 25px 35px;
+    // my styles start here
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30dvw;
+    max-width: 75dvw;
+    max-height: 90dvh;
+    overflow-y: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @media (max-width: 1024px) {
+        width: 40dvw;
+    }
+
+    @media (max-width: 768px) {
+        width: 60dvw;
+    }
+
+    @media (max-width: 576px) {
+        width: 75dvw;
+    }
+}
+
+.modalOverlay {
+    // default modal overlay styles
+    position: fixed;
+    inset: 0px;
+    // my styles start here
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+select {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+h3 {
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.error_text {
+    color: white;
+    background-color: red;
+    padding: 2px 8px;
+    border-radius: 4px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 3px 0px 6px;
+}
+
+.error, .success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    span {
+        font-size: 28px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+}

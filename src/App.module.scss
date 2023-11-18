@@ -1,0 +1,45 @@
+$bg-color: #bfafaf;
+$btn-color: rgb(68, 10, 10);
+
+// App.module.scss
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.App {
+    padding :40px 20px;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    max-height: calc(100dvh - 80px);
+    background-color: #bfafaf;
+  
+  }
+
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 10, 10);
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: lighten(rgb(68, 10, 10), 10%);
+    }
+
+    &:disabled {
+      background-color: rgb(68, 10, 10, 0.5);
+      cursor: not-allowed;
+    }
+  }
+  
+  h5 {
+    font-style: italic;
+  }
