@@ -1,10 +1,6 @@
 
 # hypothetical-product-payment-app - README
 
-## Introduction
-
-[Provide a brief overview of your application, including its purpose and key features.]
-
 ## Build Instructions
 
 ### Prerequisites
@@ -25,11 +21,7 @@
    - Run `npm run dev` to start the application on a local development server.
    - By default, the application will be available at `http://localhost:5173`.
 
-## Usage Instructions
-
-[Provide detailed instructions on how to use the application. This section should guide the user through the main features and functionalities of your app.]
-
-## Future Implementation Plans
+## Features I would have implemented if i had more time
 
 Given more time, the following features and improvements would be considered:
 
