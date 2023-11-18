@@ -37,6 +37,7 @@ Given more time, the following features and improvements would be considered:
 2. **Would prefix amount field with DOLLAR and INR icons**
 3. **Better mobile responsiveness and fonts**
 4. **Would have deployed the app for ease of use**
+5. **Would have added loaders and button loaders**
 
 ## Assumptions Made
 
